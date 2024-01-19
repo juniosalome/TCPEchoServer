@@ -21,14 +21,16 @@ An TCP echo server-client.
 
 ## About the project
 
-Create a TCP Echo Server-Client c++ with Login Request {req_id:0, username, password}, Login Response {req_id:0, status}, Echo Request {req_id:0, message}, Echo Response {req_id:0, message}
+- Create a TCP Echo Server-Client c++ with Login Request {req_id:0, username, password}, Login Response {req_id:0, status}, Echo Request {req_id:0, message}, Echo Response {req_id:0, message}
 
-Cipher and Decryption of Echo Request Message
+- Cipher and Decryption of Echo Request Message
 
-Server uses Thread
+- Server uses Thread
 
-ServerMulti uses IO socket multiplexing
+- ServerMulti uses IO socket multiplexing
 
-Message Serialization/Deserialization
+- Message Serialization/Deserialization
 
-Server continuously receive messages from the client. If the received message is equal to "exit," the server can close the connection with that client.
+- Server continuously receive messages from the client. If the received message is equal to "exit," the server can close the connection with that client.
+
+- user: "testuser" password: "testpass" (modify in includes/constants.h)
